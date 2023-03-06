@@ -1,5 +1,5 @@
 from fastapi.staticfiles import StaticFiles 
-from src.site.backend.fastapi_app import app
+from backend.fastapi_app import app
 
 async def staticPage() -> None:
     return app.mount(
